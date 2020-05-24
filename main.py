@@ -1,4 +1,5 @@
 from robinhood_util import get_data, get_client
+import pandas as pd
 
 if __name__ == "__main__":
     print("start")
