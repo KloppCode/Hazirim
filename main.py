@@ -14,5 +14,8 @@ if __name__ == "__main__":
         print(f"{stock}'s asking price is {current_data['ask_price']}")
         interesting_stocks_processed[stock] = current_data
 
-    # something cool
+    df = pd.DataFrame.from_dict(interesting_stocks_processed, orient="index")
+
+
+
     print("done")
