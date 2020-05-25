@@ -40,6 +40,8 @@ if __name__ == "__main__":
         current_processed_data['id'] = stock
         current_processed_data['Previous close'] = current_data['previous_close']
         current_processed_data['ask price'] = current_data['ask_price']
+        current_processed_data['bid price'] = current_data['bid_price']
+        current_processed_data['last price'] = current_data['last_trade_price']
         current_processed_data['Change in $'] = dollar_change
         current_processed_data['Change in %'] = percentage_change
         current_processed_data['1Y'] = one_year_price
