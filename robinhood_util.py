@@ -16,3 +16,7 @@ def get_client():
 
 def get_data(client, symbol):
     return client.get_quote(symbol)
+
+def get_historical_data(client, symbol,interval,span):
+    return client.get_historical_quotes(symbol,interval,span)
+
